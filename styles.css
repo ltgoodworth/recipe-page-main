@@ -2,6 +2,7 @@ body {
     font-size: 16px;
     font-family: "Outfit";
     background-color: hsl(30, 54%, 90%);
+    color: hsl(14, 45%, 36%);
 }
 
 #recipe {
@@ -14,18 +15,33 @@ body {
 
 img {
     width: 100%;
-    border-radius: 2px;
+    border-radius: 2%;
+}
+
+#preparation {
+    background-color: hsl(330, 100%, 98%);
+    padding: 5px 26px;
+    border-radius: 2%;
 }
 
 h1 {
     font-family: "Young Serif";
-    font-weight: 600;
+    font-weight: 400;
     font-size: 40px;
+    color: hsl(332, 51%, 32%);
 }
 
 h2 {
     font-family: "Young Serif";
     font-weight: 400;
+}
+
+p {
+    padding: 10px;
+}
+
+li {
+    padding: 5px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
