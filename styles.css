@@ -88,3 +88,22 @@ td {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+@media (max-width: 600px) {
+    #recipe {
+      margin:0;
+      width: 100vw;
+      height: 100vh;
+      border-radius: 0;
+    }
+
+    img {
+        width: 100vw;
+        border-radius: 0;
+    }
+
+    body {
+      padding:0;
+      margin: 0;
+      background-color: hsl(0, 0%, 100%);
+    }
+}
