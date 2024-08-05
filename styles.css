@@ -6,7 +6,7 @@ body {
     padding: 80px 0 80px 0;
 }
 
-#recipe {
+.recipe {
     background-color: hsl(0, 0%, 100%);
     width: 650px;
     margin: 0 auto;
@@ -19,7 +19,7 @@ img {
     border-radius: 2%;
 }
 
-#preparation {
+.preparation {
     background-color: hsl(330, 100%, 98%);
     padding: 5px 26px;
     border-radius: 2%;
@@ -47,7 +47,7 @@ p {
 }
 
 hr {
-    font-weight: lighter; 
+    font-weight: lighter;
     border-color: hsl(330, 100%, 98%);
 }
 
@@ -82,14 +82,14 @@ tr {
 }
 
 td {
-    padding: 15px 0 15px 20px; 
+    padding: 15px 0 15px 20px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media (max-width: 600px) {
-    #recipe {
+    .recipe {
       margin:0;
       width: 100vw;
       height: 100vh;
